@@ -13,7 +13,7 @@ let xp_min = JSON.parse(fs.readFileSync('./xp/xp_min.json', 'utf8'));
 let xp_war = JSON.parse(fs.readFileSync('./xp/xp_war.json', 'utf8'));
 var prefix = config.Prefix;
 
-Client.login('NzEwMDY1Mzk3NzQ3MDIzODgz.XrwT2w.I9DnGsYqmPPcFSDoIhav3H4EOAo');
+Client.login(process.env.TOKEN);
 
 Client.on('ready', () => {
     console.log("I'm ready !!!");
