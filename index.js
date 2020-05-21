@@ -11,7 +11,7 @@ let xp_rl = JSON.parse(fs.readFileSync('/xp/xp_rl.json', 'utf8'));
 let xp_cs = JSON.parse(fs.readFileSync('/xp/xp_cs.json', 'utf8'));
 let xp_min = JSON.parse(fs.readFileSync('/xp/xp_min.json', 'utf8'));
 let xp_war = JSON.parse(fs.readFileSync('/xp/xp_war.json', 'utf8'));
-var prefix = config.Prefix;
+var prefix = '*';
 
 Client.login(process.env.TOKEN);
 
