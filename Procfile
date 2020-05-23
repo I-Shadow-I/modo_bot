@@ -1,1 +1,1 @@
-woker: node main.js
+worker: node index.js
